@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.15.3)
+    goodcheck (3.0.3)
+      marcel (>= 1.0, < 2.0)
+      psych (>= 3.1, < 5.0)
+      rainbow (>= 3.0, < 4.0)
+      strong_json (>= 1.1, < 2.2)
+    liquid (5.0.1)
+    listen (3.5.1)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+    marcel (1.0.1)
+    nokogiri (1.11.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogumbo (2.0.5)
+      nokogiri (~> 1.8, >= 1.8.4)
+    psych (4.0.1)
+    racc (1.5.2)
+    rainbow (3.0.0)
+    rb-fsevent (0.11.0)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    shopify-cli (2.0.1)
+      listen (~> 3.5)
+      theme-check (~> 1.0)
+    strong_json (2.1.2)
+    theme-check (1.0.0)
+      liquid (>= 5.0.1)
+      nokogumbo
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  goodcheck
+  shopify-cli
+
+RUBY VERSION
+   ruby 3.0.1p64
+
+BUNDLED WITH
+   2.2.19
